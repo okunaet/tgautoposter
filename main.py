@@ -14,7 +14,7 @@ OPENAI_KEY = os.getenv("OPENAI_KEY")       # OpenAI API key
 KYIV_TZ = ZoneInfo("Europe/Kyiv")
 
 # Five posts per day (Kyiv time)
-SCHEDULE = ["11:00", "15:00","15:12", "17:00", "19:00", "21:00"]
+SCHEDULE = ["11:00", "15:00", "15:22", "17:00", "19:00", "21:00"]
 # ==========================
 
 client = OpenAI(api_key=OPENAI_KEY)
