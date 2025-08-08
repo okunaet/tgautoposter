@@ -11,7 +11,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")  # e.g. @your_channel
 OPENAI_KEY = os.getenv("OPENAI_KEY")
 KYIV_TZ = ZoneInfo("Europe/Kyiv")
-SCHEDULE = ["11:00", "15:00", "17:00", "19:00", "21:00"]
+SCHEDULE = ["11:00", "15:00", "15:40", "17:00", "19:00", "21:00"]
 # ====================
 
 client = OpenAI(api_key=OPENAI_KEY)
