@@ -19,7 +19,7 @@ CHANNEL_ID = os.getenv("CHANNEL_ID")            # required: @channel or -100...
 OPENAI_KEY = os.getenv("OPENAI_KEY")            # required
 MODEL_NAME = os.getenv("MODEL_NAME", "gpt-4o-mini")
 IMAGE_MODEL = os.getenv("IMAGE_MODEL", "gpt-image-1")
-SCHEDULE = ["11:00", "15:00", "16:04", "17:00", "19:00", "21:00"]  # Kyiv
+SCHEDULE = ["11:00", "15:00", "16:04", "16:05", "17:00", "19:00", "21:00"]  # Kyiv
 IMAGES_PER_DAY = 3                               # exactly 3 image posts per day
 RUN_NOW = os.getenv("RUN_NOW") == "1"            # send one post immediately for testing
 # ====================
