@@ -21,7 +21,7 @@ OPENAI_KEY = os.getenv("OPENAI_KEY")            # required
 MODEL_NAME = os.getenv("MODEL_NAME", "gpt-4o-mini")
 IMAGE_MODEL = os.getenv("IMAGE_MODEL", "gpt-image-1")
 IMAGE_SIZE = os.getenv("IMAGE_SIZE", "1024x1024")  # gpt-image-1 supports 1024x1024, 1024x1536, 1536x1024, or 'auto'
-SCHEDULE = ["11:00", "15:00", "16:25", "17:00", "19:00", "21:00"]  # Kyiv
+SCHEDULE = ["11:00", "15:00", "16:33", "17:00", "19:00", "21:00"]  # Kyiv
 IMAGES_PER_DAY = 3                               # exactly 3 image posts per day
 RUN_NOW = os.getenv("RUN_NOW") == "1"            # send one post immediately for testing
 FORCE_IMAGES = os.getenv("FORCE_IMAGES") == "1"  # force images for each post (debug)
